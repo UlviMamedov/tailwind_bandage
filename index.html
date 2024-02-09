@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="bg-green-800 py-4 px-4">
+    <div class="container mx-auto flex flex-wrap justify-between items-center">
+        <div class="flex flex-wrap items-center space-x-4">
+            <div class="flex items-center text-gray-400">
+                <img src="images/phone.png" alt="" class="w-4 h-4">
+                <span class="hidden sm:block ml-2">(225) 555-0118</span>
+            </div>
+            <div class="flex items-center px-5">
+                <img src="images/message.png" alt="">
+                <a href="mailto:michelle.rivera@example.com" class="hidden sm:block text-gray-400 ml-2">michelle.rivera@example.com</a>
+            </div>
+        </div>
+        <div class="hidden md:flex items-center space-x-4">
+            <span class="text-white font-bold">Follow Us and get a chance to win 80% off</span>
+        </div>
+        <div class="flex items-center">
+            <span class="text-white mx-2">Follow Us</span>
+            <span class="text-white mx-2">:</span>
+            <img class="mx-1" src="images/social_media/instagram.png" alt="">
+            <img class="mx-1" src="images/social_media/youtube.png" alt="">
+            <img class="mx-1" src="images/social_media/facebook.png" alt="">
+            <img class="mx-1" src="images/social_media/twitter.png" alt="">
+        </div>
+    </div>
+</div>
+
+<header class="bg-white py-4">
+    <div class="container mx-auto flex items-center justify-between flex-wrap">
+        <div class="flex items-center">
+            <span class="text-3xl font-semibold">Bandage</span>
+        </div>
+        <button class="md:hidden px-2 py-1 border rounded text-gray-600 hover:text-gray-900" id="menu-btn">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+        <nav class="hidden md:block md:flex space-x-4 w-full md:w-auto" id="menu">
+            <ul class="flex flex-col md:flex-row list-none md:space-x-4">
+                <li class="mx-5">
+                    <a href="#" class="text-gray-600 hover:text-gray-900 font-bold">Home</a>
+                </li>
+                <li class="mx-5 flex items-center cursor-pointer">
+                    <a href="#" class="text-gray-600 hover:text-gray-900 font-bold">
+                        Shop
+                    </a>
+                    <img src="images/dropdown.png" alt="" class="ml-2">
+                </li>
+                <li class="mx-5">
+                    <a href="#" class="text-gray-600 hover:text-gray-900 font-bold">About</a>
+                </li>
+                <li class="mx-5">
+                    <a href="#" class="text-gray-600 hover:text-gray-900 font-bold">Blog</a>
+                </li>
+                <li class="mx-5">
+                    <a href="#" class="text-gray-600 hover:text-gray-900 font-bold">Contact</a>
+                </li>
+                <li class="mx-5">
+                    <a href="#" class="text-gray-600 hover:text-gray-900 font-bold">Pages</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex items-center space-x-4">
+            <div class="flex items-center mx-5">
+                <img src="images/user.png" alt="" class="w-4 mx-2">
+                <a href="#" class="text-blue-400 font-bold">
+                    Login / Register
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/search.png" alt="">
+                </a>
+            </div>
+            <div class="flex items-center">
+                <img src="images/cart.png" alt="">
+                <a href="#" class="text-sm text-blue-400 font-bold mx-1">
+                    1
+                </a>
+            </div>
+            <div class="flex items-center">
+                <img src="images/heart.png" alt="">
+                <a href="#" class="text-sm text-blue-400 font-bold mx-1">
+                    1
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container mx-auto py-4">
+    <div class="flex justify-between items-center">
+        <h2 class="text-3xl font-bold my-4">Shop</h2>
+        <div class="flex items-center mr-5">
+            <a href="#" class="text-lg text-gray-800 hover:text-gray-600 mr-4 font-bold">Home</a>
+            <a href="">
+                <img src="images/right.png" alt="">
+            </a>
+            <a href="#" class="text-lg text-gray-400 hover:text-gray-600 ml-4">Shop</a>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-5 gap-4 py-4">
+        <div class="group relative flex justify-center items-center h-full">
+            <img src="images/girl_1.png" alt="" class="w-full h-auto">
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <h3 class="text-lg font-semibold text-white tracking-wide">CLOTHS</h3>
+                <p class="text-md text-white my-3 ml-3">5 Items</p>
+            </div>
+        </div>
+        <div class="group relative flex justify-center items-center h-full">
+            <img src="images/girl_2.png" alt="" class="w-full h-auto">
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <h3 class="text-lg font-semibold text-white tracking-wide">CLOTHS</h3>
+                <p class="text-md text-white my-3 ml-3">5 Items</p>
+            </div>
+        </div>
+        <div class="group relative flex justify-center items-center h-full">
+            <img src="images/girl_3.png" alt="" class="w-full h-auto">
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <h3 class="text-lg font-semibold text-white tracking-wide">CLOTHS</h3>
+                <p class="text-md text-white my-3 ml-3">5 Items</p>
+            </div>
+        </div>
+        <div class="group relative flex justify-center items-center h-full">
+            <img src="images/girl_4.png" alt="" class="w-full h-auto">
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <h3 class="text-lg font-semibold text-white tracking-wide">CLOTHS</h3>
+                <p class="text-md text-white my-3 ml-3">5 Items</p>
+            </div>
+        </div>
+        <div class="group relative flex justify-center items-center h-full">
+            <img src="images/girl_5.png" alt="" class="w-full h-auto">
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <h3 class="text-lg font-semibold text-white tracking-wide">CLOTHS</h3>
+                <p class="text-md text-white my-3 ml-3">5 Items</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mx-auto px-4">
+    <div class="bg-white py-20 px-6">
+        <div class="flex flex-wrap items-center justify-between">
+            <div>
+                <span class="text-gray-500 mb-4 font-bold">Showing all 12 results</span>
+            </div>
+            <div class="flex items-center">
+                <span class="font-bold text-gray-500 text-md">Views:</span>
+                <div class="w-10 h-10 border-slate-200 border-2 flex justify-center items-center ml-5">
+                    <img src="images/button_icon.png" alt="">
+                </div>
+                <div class="w-10 h-10 border-slate-200 border-2 flex justify-center items-center ml-5">
+                    <img src="images/button_icon_2.png" alt="">
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <button class="border-slate-200 border-2 px-4 py-3 bg-gray-100 text-gray-500 rounded leading-tight flex items-center">
+                        Popularity
+                        <img src="images/dropdown_2.png" alt="" class="ml-2">
+                    </button>
+                </div>
+                <button class="px-4 py-3 bg-cyan-600 text-gray-100 rounded focus:outline-none focus:ring-2 focus:ring-gray-200">
+                    Filter
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_2.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_3.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_4.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-16">
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_5.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_6.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_7.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_8.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-16">
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_9.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_10.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_11.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+        <div class="flex flex-col items-center bg-white p-4">
+            <img class="w-full mb-3" src="images/design_people_images/design_people_12.png" alt="Product Image">
+            <h2 class="text-lg font-semibold my-4">Graphic Design</h2>
+            <p class="text-gray-600 mb-4 text-xl">English Department</p>
+            <div class="flex item-center mb-4">
+                <span class="text-gray-400 font-bold mx-1">$16.48</span>
+                <span class="text-green-600 font-bold mx-1">$6.48</span>
+            </div>
+            <div class="flex">
+                <span class="h-4 w-4 bg-blue-400 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-orange-500 rounded-full mx-2"></span>
+                <span class="h-4 w-4 bg-green-500 rounded-full mx-2"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="flex justify-center py-5">
+    <div class="inline-flex">
+        <a href="#" class="p-6 text-gray-500 bg-gray-200 rounded">First</a>
+        <a href="#" class="px-4 py-6 text-gray-700 bg-white border border-r-0 border-gray-300">1</a>
+        <a href="#" class="px-4 py-6 text-white bg-blue-500 border border-r-0 border-gray-300">2</a>
+        <a href="#" class="px-4 py-6 text-gray-700 bg-white border border-gray-300">3</a>
+        <a href="#" class="px-4 py-6 text-gray-700 bg-white border border-gray-300">Next</a>
+    </div>
+</div>
+
+<div class="bg-gray-100 p-8 mt-24">
+    <div class="container mx-auto flex justify-around items-center">
+        <div>
+            <img src="images/brands/hooli.png">
+        </div>
+        <div>
+            <img src="images/brands/lya.png">
+        </div>
+        <div>
+            <img src="images/brands/brand.png">
+        </div>
+        <div>
+            <img src="images/brands/stripe.png">
+        </div>
+        <div>
+            <img src="images/brands/aws.png">
+        </div>
+        <div>
+            <img src="images/brands/brand_noname.png">
+        </div>
+    </div>
+</div>
+
+<div class="container mx-auto px-6 py-4 flex justify-between my-10">
+    <h1 class="text-2xl font-bold">Bandage</h1>
+    <div class="flex items-center">
+        <a href="#" class="text-gray-600 hover:text-gray-900 mx-2">
+            <img src="images/social_media/blue_facebook.png" alt="">
+        </a>
+        <a href="#" class="text-gray-600 hover:text-gray-900 mx-2">
+            <img src="images/social_media/blue_instagram.png" alt="">
+        </a>
+        <a href="#" class="text-gray-600 hover:text-gray-900 mx-2">
+            <img src="images/social_media/blue_twitter.png" alt="">
+        </a>
+    </div>
+</div>
+<div class="container mx-auto">
+    <hr>
+</div>
+<footer class="text-gray-600">
+    <div class="container mx-auto px-6 py-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-8">
+            <div class="space-y-4">
+                <h3 class="font-bold text-black text-lg">Company Info</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-600 font-bold">About Us</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">Carrier</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">We are hiring</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">Blog</a></li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h3 class="font-bold text-black text-lg">Legal</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-600 font-bold">About Us</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">Carrier</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">We are hiring</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">Blog</a></li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h3 class="font-bold text-black text-lg">Features</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-600 font-bold">Business Marketing</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">User Analytics</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">Live Chat</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">Unlimited Support</a></li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h3 class="font-bold text-black text-lg">Resources</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-600 font-bold">IOS & Android</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">Watch a Demo</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">Customers</a></li>
+                    <li><a href="#" class="text-gray-600 font-bold">API</a></li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h3 class="text-black font-bold text-lg">Get In Touch</h3>
+                <form class="flex flex-col space-y-3 xl:flex-row xl:space-y-0">
+                    <input type="text" placeholder="Your Email" class="py-4 px-4 text-sm border border-gray-300 font-bold w-full xl:w-auto">
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4">Subscribe</button>
+                </form>
+                <div class="text-xs text-gray-400">
+                    Lorem ipsum dolor sit amet
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="mt-8  bg-gray-100 flex">
+    <div class="container mx-auto py-4">
+        <span class="text-sm font-bold text-gray-600 ml-5">Made With Love by Finland All Right Reserved</span>
+    </div>
+</div>
+
+<script>
+    document.getElementById('menu-btn').addEventListener('click', function() {
+        document.getElementById('menu').classList.toggle('hidden');
+    });
+</script>
+</body>
+</html>
